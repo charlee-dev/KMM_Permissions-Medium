@@ -130,7 +130,7 @@ internal fun PermissionItem(
                 onClick = onOpenSettingsClick,
             ) {
                 Text(
-                    text = "Request",
+                    text = "Settings",
                     color = MaterialTheme.colors.onPrimary,
                 )
             }
