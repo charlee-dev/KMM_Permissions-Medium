@@ -43,6 +43,7 @@ kotlin {
                 implementation(compose.materialIconsExtended)
                 implementation(compose.runtime)
                 implementation(compose.ui)
+                implementation("io.insert-koin:koin-core:3.4.0")
             }
         }
         @Suppress("UNUSED_VARIABLE")
