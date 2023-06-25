@@ -38,10 +38,6 @@ internal fun checkPermissions(
     val isAllGranted: Boolean = status.all { it == PackageManager.PERMISSION_GRANTED }
     if (isAllGranted) return PermissionState.GRANTED
 
-    // SDK starts checking permissions before activity is available, so until we have activity
-    // we can't check permission rationale, so we return NOT_DETERMINED. It makes not difference
-    // for AppState, because permission is not granted anyway. Code below matters only in the UI,
-    // but the Activity is ready at this point.
     val isAllRequestRationale: Boolean = try {
         permissions.all {
             !activity.value.shouldShowRequestPermissionRationale(it)
