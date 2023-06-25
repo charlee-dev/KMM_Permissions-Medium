@@ -4,6 +4,8 @@
 <dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>Our app uses bluetooth to find, connect and transfer data between different devices</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Our app uses location always for tracking user&apos;s location while on the racce track.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

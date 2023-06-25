@@ -14,4 +14,19 @@ enum class Permission {
      * App bluetooth permission.
      */
     BLUETOOTH,
+
+    /**
+     * Indicates that the system setting location service is on.
+     */
+    LOCATION_SERVICE_ON,
+
+    /**
+     * App location fine permission.
+     */
+    LOCATION_FOREGROUND,
+
+    /**
+     * App location background permission.
+     */
+    LOCATION_BACKGROUND,
 }
