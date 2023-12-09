@@ -31,7 +31,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.adrianwitaszak.kmmpermissions.permissions.model.Permission
 import com.adrianwitaszak.kmmpermissions.permissions.model.PermissionState
-import com.adrianwitaszak.kmmpermissions.permissions.model.notGranted
 import com.adrianwitaszak.kmmpermissions.permissions.service.PermissionsService
 import kotlinx.coroutines.launch
 
